@@ -5,3 +5,18 @@ body {
 #selfie {
     width: 100px;
 }
+
+div.image {
+    float: left;
+}
+div.name {
+    float: right;
+}
+
+.biography{
+    clear: both;
+}
+
+hr{
+    clear: both;
+}
