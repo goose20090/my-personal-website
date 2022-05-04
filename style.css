@@ -4,33 +4,35 @@ body {
 }
 .container {
     position: relative;
-    max-width: 1020px;
+    max-width: 800px;
     margin: 0 auto;
     box-sizing: border-box;
     margin-bottom: 45px;
 }
 #selfie {
+    margin-left: 10%;
     width: 100px;
+    border-radius: 50%;
+    border: thick double #8BFFDA;
 }
 .column{
     width: 50%;
     float: left;
 }
 
-#personal-info{
-    text-align: right;
-}
-
-.row{
-    width: 70%;
+.row {
     margin-left: auto;
     margin-right: auto;
+}
+
+#personal-info{
+    text-align: right;
 }
 
 .biography{
     clear: both;
     text-align: center;
-    width: ;
+    font-size: 12px;
     margin-left: auto;
     margin-right: auto;
 }
