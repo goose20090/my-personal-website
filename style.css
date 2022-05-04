@@ -1,5 +1,6 @@
 body {
     background-color: #FFF9E6;
+    font-family: Arial
 }
 
 #selfie {
@@ -15,6 +16,10 @@ div.name {
 
 .biography{
     clear: both;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr{
