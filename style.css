@@ -6,13 +6,11 @@ body {
 #selfie {
     width: 100px;
 }
-
-div.image {
+.column{
+    width: 50%;
     float: left;
 }
-div.name {
-    float: right;
-}
+
 
 .biography{
     clear: both;
