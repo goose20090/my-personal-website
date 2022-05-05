@@ -1,3 +1,9 @@
-const h2 = document.createElement("h2");
-h2.textContent= ;
-document.querySelector("body").appendChild(h2);
+let nrc= document.getElementById("nrc");
+
+nrc.addEventListener("mouseenter", function(event){
+    event.target.src = "with-arrow.jpg";
+})
+
+nrc.addEventListener("mouseleave", function(event){
+    event.target.src = "without-arrow.jpg";
+})

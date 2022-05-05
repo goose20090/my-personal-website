@@ -13,7 +13,7 @@ body {
     margin-left: 10%;
     width: 100px;
     border-radius: 50%;
-    border: thick double #8BFFDA;
+    border: thick double #e36464;
 }
 .column{
     width: 50%;
@@ -39,7 +39,7 @@ body {
     margin-right: auto;
 }
 
-#NRC{
+#nrc{
     margin-top: 20px;
     width: 60%;
     float: right;
