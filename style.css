@@ -39,6 +39,12 @@ body {
     margin-right: auto;
 }
 
+#without-arrow{
+    margin-top: 20px;
+    width: 60%;
+    float: right;
+}
+
 hr{
     clear: both;
 }
