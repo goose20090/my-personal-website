@@ -31,7 +31,9 @@ body {
 
 .biography{
     clear: both;
-    text-align: center;
+    width: 33%;
+    float: left;
+    text-align: left;
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
