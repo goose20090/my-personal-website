@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ----structural----*/
 body {
     background-color: #FFF9E6;
     font-family: Arial
 }
-
+/*----header----*/
 #header{
     background-color: #E6ECFF;
     width: 100vw;
@@ -38,6 +38,7 @@ hr{
     height: 100px;
     border-radius: 50%;
 }
+/*---- Main Content----*/
 
 .main-content {
     position: relative;
@@ -48,10 +49,10 @@ hr{
 }
 
 
-/*#selfie:hover {
+#selfie:hover {
     transition: transform 1s;
     transform: rotate(360deg);
-}*/
+}
 
 .column{
     width: 50%;
@@ -62,8 +63,6 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 .biography{
     margin-top: 17px;
@@ -81,7 +80,7 @@ hr{
     width: 60%;
     float: right;
 }
-
+/*----Footer----*/
 .footer {
     position: absolute;
     bottom: 0;
@@ -90,24 +89,6 @@ hr{
     background-color: #E6ECFF;
     width: 100vw;
     z-index: 10;
-    padding: 10px;
+    padding: 40px;
 }
 
-/*#footer {
-    position : absolute;
-    bottom : 0;
-    height : 40px;
-    margin-top : 40px;
-  }
-.footer{
-    clear: both;
-    width: 100vw;
-    display: block;
-    overflow: hidden;
-    padding: 70px 0;
-    box-sizing: border-box;
-    background-color: #E6ECFF;
-    margin-bottom: 0px;
-}
-
-*/
