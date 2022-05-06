@@ -22,13 +22,54 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
+#personal-info{
+    margin-top: 5%;
+}
 
 .footer{
     clear: both;
     width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
     background-color: #E6ECFF;
     margin-bottom: 0px;
 }
+
+.inner-footer{
+    dispaly: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner-footer.footer-second{
+    width: calc(21.66666666667% -20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner-footer.footer-second h1 {
+    font-family: 'Arial';
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin bottom: 20px;
+}
+
+.inner-footer.footer-second a {
+    font-family: 'Arial';
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
 
 .main-content {
     position: relative;
@@ -38,7 +79,7 @@ body {
     margin-bottom: 45px;
 }
 #selfie {
-    margin-top: 4%;
+    margin-top: 7.5%;
     margin-left: 10%;
     width: 100px;
     height: 100px;
@@ -65,6 +106,7 @@ body {
 }
 
 .biography{
+    margin-top: 17px;
     clear: both;
     width: 33%;
     float: left;
