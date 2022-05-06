@@ -27,7 +27,6 @@ body {
     margin-left: 10%;
     width: 100px;
     border-radius: 50%;
-    border: thick double #e36464;
 }
 
 /*#selfie:hover {
@@ -63,10 +62,7 @@ body {
     margin-top: 17px;
     width: 60%;
     float: right;
-    border: thick double #e36464;
-}
 
 hr{
     clear: both;
-    border: thick double #e36464;
 }
