@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     background-color: #FFF9E6;
     font-family: Arial
@@ -5,8 +12,6 @@ body {
 
 #header{
     background-color: #E6ECFF;
-    margin-left: -8px;
-    margin-top: -8px;
     width: 100vw;
     text-align: center;
     position: fixed;
@@ -18,7 +23,14 @@ body {
     padding-right: 5%;
 }
 
-.container {
+.footer{
+    clear: both;
+    width: 100vw;
+    background-color: #E6ECFF;
+    margin-bottom: 0px;
+}
+
+.main-content {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
