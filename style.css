@@ -80,15 +80,37 @@ hr{
     width: 60%;
     float: right;
 }
+
+.about{
+    clear:both;
+    overflow: auto;
+    zoom: 1;
+    margin-top: 60%;
+}
+
+.hobbies{
+    float: right;
+    width: 33%;
+    padding-top: 20px;
+}
+
+.liquid{
+    float: left;
+    width: 48%;
+    padding-top: 20px;
+}
+
+#work{
+    width: 400px;
+}
 /*----Footer----*/
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
     background-color: #E6ECFF;
     width: 100vw;
-    z-index: 10;
-    padding: 40px;
+    padding: 5px;
 }
 
