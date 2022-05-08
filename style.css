@@ -6,7 +6,7 @@
 /* ----structural----*/
 body {
     background-color: #FFF9E6;
-    font-family: Arial
+    font-family: Arial;
 }
 /*----header----*/
 #header{
@@ -59,7 +59,7 @@ hr{
     float: left;
 }
 
-.row {
+.row1 {
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,20 +86,20 @@ hr{
     float: left;
 }
 
-.about{
+.row2{
     clear:both;
     overflow: auto;
     zoom: 1;
     margin-top: 50%;
 }
 
-.hobbies{
+.column-right{
     float: right;
     width: 33%;
     padding-top: 20px;
 }
 
-.liquid{
+.company-photo{
     float: left;
     width: 48%;
     padding-top: 20px;
@@ -108,14 +108,30 @@ hr{
 #work{
     width: 400px;
 }
+
+.hobbies-container {
+    position: relative;
+    max-width: 800px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    clear:both;
+    overflow: auto;
+    zoom: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+
 /*----Footer----*/
 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
+    font-size: 12px;
     background-color: #E6ECFF;
     width: 100vw;
-    padding: 5px;
+    padding: 3px;
 }
 
