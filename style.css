@@ -67,7 +67,7 @@ hr{
 .biography{
     margin-top: 5%;
     clear: both;
-    width: 33%;
+    width: 100%;
     float: left;
     text-align: left;
     font-size: 16px;
@@ -77,12 +77,13 @@ hr{
 
 #bristol{
     margin-top: 17px;
-    width: 60%;
-    float: right;
+    margin-left: 5%;
+    width: 90%;
+    float: center;
 }
 
 #nrc{
-    width: 400px;
+    width: 110%;
     float: left;
 }
 
@@ -90,7 +91,7 @@ hr{
     clear:both;
     overflow: auto;
     zoom: 1;
-    margin-top: 50%;
+    margin-top: 10%;
 }
 
 .column-right{
@@ -121,6 +122,25 @@ hr{
     text-align: left;
     padding: 20px;
 }
+
+.hobbies{
+    width: 33%;
+    float: left;
+}
+.favourite-movies{
+    float: left;
+    width: 33%;
+}
+
+.list{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.favourite-recipes{
+    width: 33%;
+    float: right;
+}
+
 
 
 /*----Footer----*/
