@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+a{
+    color: #6F75FF;
+    position: relative;
+    text-decoration: none;
+    transition: .4s ease-out;
+}
+
+a::after{
+    border-top: .2em solid #6F75FF;
+    content: "";
+    position: absolute;
+        right: 100%;
+        bottom: -0.2em;
+        left: 0;
+    transition: right 0.4s cubic-bezier(0,0.5,0,1),
+                border-color .4s ease-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #e9a5ff;
+}
+
+a:hover::after{
+    right: 0;
+    border-color:  #e9a5ff;
+}
+
 /* ----- header-----*/
 
 body {
